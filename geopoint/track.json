@@ -4,7 +4,33 @@
   "data-url": "http://benchmarks.elasticsearch.org.s3.amazonaws.com/corpora/geopoint",
   "indices": [
     {
-      "name": "osmgeopoints",
+      "name": "osmgeopoints-1",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents.json.bz2",
+          "document-count": 60844404,
+          "compressed-bytes": 505295401,
+          "uncompressed-bytes": 2448564579
+        }
+      ]
+    },
+    {
+      "name": "osmgeopoints-2",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents.json.bz2",
+          "document-count": 60844404,
+          "compressed-bytes": 505295401,
+          "uncompressed-bytes": 2448564579
+        }
+      ]
+    },
+    {
+      "name": "osmgeopoints-3",
       "types": [
         {
           "name": "type",
@@ -173,7 +199,7 @@
         {
           "operation": "index-append",
           "warmup-time-period": 120,
-          "clients": 8
+          "clients": 96
         },
         {
           "operation": "force-merge",
