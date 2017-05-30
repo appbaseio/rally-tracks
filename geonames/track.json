@@ -4,7 +4,124 @@
   "data-url": "http://benchmarks.elasticsearch.org.s3.amazonaws.com/corpora/geonames",
   "indices": [
     {
-      "name": "geonames",
+      "name": "geonames-1",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-2",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-3",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-4",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-5",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-6",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-7",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-8",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-9",
+      "types": [
+        {
+          "name": "type",
+          "mapping": "mappings.json",
+          "documents": "documents-2.json.bz2",
+          "document-count": 11396505,
+          "compressed-bytes": 264698741,
+          "uncompressed-bytes": 3547614383
+        }
+      ]
+    },
+    {
+      "name": "geonames-10",
       "types": [
         {
           "name": "type",
@@ -344,7 +461,7 @@
         {
           "operation": "index-append",
           "warmup-time-period": 120,
-          "clients": 8
+          "clients": 96
         },
         {
           "operation": "force-merge",
